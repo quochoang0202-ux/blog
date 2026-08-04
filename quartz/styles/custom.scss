@@ -1,3 +1,215 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+/* ============================================
+   BLOG QUỐC HOÀNG · SALES & AI — Custom Theme
+   Phong cách: chuyên nghiệp, đáng tin cậy, hiện đại
+   Palette: Navy (#1e3a5f) + Gold (#c9a227)
+   ============================================ */
+
+/* --- Typography mượt hơn --- */
+body {
+  letter-spacing: 0.01em;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+/* --- Header / Nav --- */
+header {
+  backdrop-filter: blur(8px);
+  background: var(--light) !important;
+  border-bottom: 1px solid var(--lightgray) !important;
+}
+
+[data-saved-theme="dark"] header {
+  background: var(--light) !important;
+}
+
+header nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem;
+}
+
+/* Logo text */
+header .logo a {
+  font-weight: 800 !important;
+  font-size: 1.2em !important;
+  background: linear-gradient(90deg, var(--secondary), var(--tertiary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: var(--secondary) !important;
+}
+
+/* --- Hero section (trang chủ) --- */
+.hero {
+  padding: 4rem 0 2rem;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+
+.hero .subtitle {
+  font-size: 1.25rem;
+  color: var(--darkgray);
+  max-width: 640px;
+  margin: 0 auto 2rem;
+}
+
+/* --- Cards cho bài viết nổi bật --- */
+.recent-notes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.recent-notes .recent-note {
+  border: 1px solid var(--lightgray);
+  border-radius: 12px;
+  padding: 1.5rem;
+  background: var(--light);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.recent-notes .recent-note:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(30, 58, 95, 0.12);
+}
+
+.recent-notes .recent-note h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.15rem;
+}
+
+.recent-notes .recent-note h3 a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+.recent-notes .recent-note h3 a:hover {
+  color: var(--tertiary);
+}
+
+/* --- Content area --- */
+.article {
+  max-width: 780px;
+  margin: 0 auto;
+  line-height: 1.75;
+  font-size: 1.06rem;
+}
+
+.article p {
+  margin-bottom: 1.25rem;
+}
+
+/* --- Links --- */
+a {
+  color: var(--secondary);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition:
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+a:hover {
+  color: var(--tertiary);
+  border-bottom-color: var(--tertiary);
+}
+
+/* --- Code blocks --- */
+pre {
+  border-radius: 10px;
+  border: 1px solid var(--lightgray);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+code {
+  border-radius: 5px;
+}
+
+/* --- Table --- */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--lightgray);
+}
+
+th {
+  background: var(--secondary);
+  color: #fff;
+  font-weight: 600;
+}
+
+th,
+td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--lightgray);
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* --- Callout đẹp hơn --- */
+.callout {
+  border-radius: 10px;
+  border-left: 4px solid var(--secondary);
+}
+
+/* --- Blockquote --- */
+blockquote {
+  border-left: 4px solid var(--tertiary);
+  background: var(--highlight);
+  border-radius: 0 10px 10px 0;
+  padding: 1rem 1.5rem;
+  font-style: italic;
+}
+
+/* --- Footer --- */
+footer {
+  border-top: 1px solid var(--lightgray);
+  margin-top: 4rem;
+  padding: 2rem 0;
+  text-align: center;
+  color: var(--gray);
+}
+
+/* --- Tags --- */
+.tag {
+  border-radius: 20px;
+  padding: 0.15rem 0.7rem;
+  background: var(--highlight);
+  border: 1px solid var(--lightgray);
+  font-size: 0.8em;
+}
+
+/* --- Image --- */
+img {
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* --- Breadcrumbs --- */
+.breadcrumb-container {
+  color: var(--gray);
+  font-size: 0.85em;
+  margin-bottom: 0.5rem;
+}
