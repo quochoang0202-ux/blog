@@ -33,5 +33,5 @@ Tại blog này, tôi chia sẻ những gì học được trên hành trình đ
 
 ## Liên hệ
 
-- 📱 Zalo: 0866.475.575
-- ✉️ Email: [quochoang.business@gmail.com](mailto:quochoang.business@gmail.com)
+*[Thông tin liên hệ — chờ anh Hoàng duyệt trước khi đưa lên công khai]*
+

@@ -180,9 +180,7 @@ plugins:
   - source: "@quartz-community/footer"
     enabled: true
     options:
-      links:
-        Zalo: "https://zalo.me/0866475575"
-        Email: "mailto:quochoang@gmail.com"
+      links: {}
     layout:
       position: footer
       priority: 50
