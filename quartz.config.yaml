@@ -2,7 +2,7 @@
 configuration:
   pageTitle: Quốc Hoàng
   pageTitleSuffix: " · Sales & AI"
-  enableSPA: true
+  enableSPA: false
   enablePopovers: true
   analytics:
     provider: null

@@ -17,21 +17,17 @@ Chào bạn, tôi là **Quốc Hoàng** — người có 8 năm kinh nghiệm b�
 
 Tại blog này, tôi chia sẻ những gì học được trên hành trình đó — thực chiến, không lý thuyết.
 
----
+## Khám phá
 
-## Tôi chia sẻ về
-
-- 🤖 **AI cho dân sales** — xây trợ lý AI, CRM tự động, content hàng loạt
-- 🛢️ **Kinh nghiệm bán hàng B2B** — 8 năm trong ngành dầu nhớt, từ Castrol đến TotalEnergies
-- 🚀 **Doanh nghiệp một người** — cách một người + AI làm việc của cả một team
+- [[Về tôi|ℹ️ Về tôi]] — hành trình 8 năm sales → AI
+- [[Bây giờ|⏰ Bây giờ]] — tôi đang làm gì
+- [[Bài viết|📚 Bài viết]] — nội dung AI + Sales
+- [[Dự án|🗂️ Dự án]] — sản phẩm đang triển khai
+- [[Đọc gì|📖 Đọc gì]] — sách đã đọc
+- [[Hành trình|🧭 Hành trình]] — timeline từ sales đến AI
+- [[Trích dẫn|💬 Trích dẫn]] — câu nói tâm đắc
+- [[Hệ sinh thái|🔗 Hệ sinh thái]] — kết nối với tôi
 
 ## Bài viết nổi bật
 
 - [[8 năm bán dầu nhớt - AI không thể thay thế được|8 năm bán dầu nhớt — AI không thể thay thế được những gì]]
-
----
-
-## Liên hệ
-
-*[Thông tin liên hệ — chờ anh Hoàng duyệt trước khi đưa lên công khai]*
-
